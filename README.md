@@ -1,1 +1,0 @@
-Internshala DOM assignment
