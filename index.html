@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration System</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  
+  <div class="header">
+    <h1>Student Registration System</h1>
+    <p>A simple and intuitive system to register students, track their details, and manage records efficiently.</p>
+  </div>
+
+  <div class="container">
+    <div class="left">
+      <h2>Register New Student</h2>
+      <form id="student-form" action="">
+
+        <label for="name">Student Name:</label>
+        <input id="name" type="text" pattern="[A-Za-z\s]+" title="Name should only contain letters." required>
+
+        <label for="student-id">Student ID:</label>
+        <input id="student-id" type="number" title="Student ID must be a number." required>
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" title="Enter a valid email address." required>
+
+        <label for="contact">Contact No.:</label>
+        <input id="contact" type="tel" pattern="[0-9]{10}" title="Contact number must be 10 digits." required>
+
+        <button id="submit-btn" type="button">Add Student</button>
+
+      </form>
+    </div>
+    <div class="right">
+
+      <div class="_ele">
+        <div>Student Name</div>
+        <div>Student ID</div>
+        <div>Email ID</div>
+        <div>Contact No.</div>
+        <div>Action</div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
